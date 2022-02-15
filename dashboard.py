@@ -31,21 +31,18 @@ def set_feature( data ):
     return data
 
 def overview_data( data ):
-    f_attributes = st.sidebar.multiselect('Enter Columns', data.columns)
+
     f_zipcode = st.sidebar.multiselect(
         'Enter Zipcode',
         data['zipcode'].unique())
 
     st.title('Data Overview')
 
-    if (f_zipcode != []) & (f_attributes != []):
-        data = data.loc[data['zipcode'].isin(f_zipcode), f_attributes]
-
-    elif (f_zipcode != []) & (f_attributes == []):
+    if f_zipcode != []:
         data = data.loc[data['zipcode'].isin(f_zipcode), :]
 
-    elif (f_zipcode == []) & (f_attributes != []):
-        data = data.loc[:, f_attributes]
+    elif f_zipcode == []:
+        data = data.loc[:, :]
 
     else:
         data = data.copy()
@@ -87,7 +84,6 @@ def overview_data( data ):
     c2.header('Statistics Descriptive')
     c2.dataframe(df1, height=640)
 
-    st.write(f_attributes)
     st.write(f_zipcode)
 
     return None
@@ -224,24 +220,24 @@ def attributes_distribution( data ):
 
     # Filters
     f_bedrooms = st.sidebar.selectbox('Max number of bedrooms', sorted(set(data['bedrooms'].unique())))
-    df = data[data['bedrooms'] < f_bedrooms]
+    df1 = data[data['bedrooms'] < f_bedrooms]
 
     f_bathrooms = st.sidebar.selectbox('Max number of bathrooms', sorted(set(data['bathrooms'].unique())))
-    df = data[data['bathrooms'] < f_bathrooms]
+    df2 = data[data['bathrooms'] < f_bathrooms]
 
     f_floors = st.sidebar.selectbox('Max number of floors', sorted(set(data['floors'].unique())))
-    df = data[data['floors'] < f_floors]
+    df3 = data[data['floors'] < f_floors]
 
     c1, c2 = st.columns((2))
     c1.header('House per bedrooms')
     c2.header('House per bathrooms')
 
     # House per bedrooms
-    fig = px.histogram(data, x='bedrooms', nbins=19)
+    fig = px.histogram(df1, x='bedrooms', nbins=19)
     c1.plotly_chart(fig, use_container_width=True)
 
     # House per bathrooms
-    fig = px.histogram(data, x='bathrooms', nbins=19)
+    fig = px.histogram(df2, x='bathrooms', nbins=19)
     c2.plotly_chart(fig, use_container_width=True)
 
     c1, c2 = st.columns((1, 1))
@@ -249,7 +245,7 @@ def attributes_distribution( data ):
     c2.header('House per water view')
 
     # House per floors
-    fig = px.histogram(data, x='floors', nbins=10)
+    fig = px.histogram(df3, x='floors', nbins=10)
     c1.plotly_chart(fig, use_container_width=True)
 
     # House per water view
