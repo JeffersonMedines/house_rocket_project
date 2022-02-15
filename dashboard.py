@@ -11,6 +11,7 @@ from folium.plugins   import MarkerCluster
 
 st.set_page_config( layout='wide' )
 
+# Functions
 @st.cache( allow_output_mutation=True )
 def get_data( path ):
     data = pd.read_csv( path )
@@ -163,7 +164,7 @@ def commercial_distribution( data ):
     f_year_built = st.sidebar.slider('Year Built',
                                      min_year_built,
                                      max_year_built,
-                                     min_year_built)
+                                     max_year_built)
 
     st.header('Average Price per Year Built')
 
@@ -186,7 +187,7 @@ def commercial_distribution( data ):
 
     f_date = st.sidebar.slider('Date', min_date,
                                max_date,
-                               min_date)
+                               max_date)
     data['date'] = pd.to_datetime(data['date'])
     df = data.loc[data['date'] < f_date, :]
     df = df[['date', 'price']].groupby('date').mean().reset_index()
@@ -236,7 +237,7 @@ def attributes_distribution( data ):
     c2.header('House per bathrooms')
 
     # House per bedrooms
-    fig = px.histogram(df, x='bedrooms', nbins=19)
+    fig = px.histogram(data, x='bedrooms', nbins=19)
     c1.plotly_chart(fig, use_container_width=True)
 
     # House per bathrooms
