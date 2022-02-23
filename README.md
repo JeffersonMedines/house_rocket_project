@@ -1,14 +1,28 @@
 ![house_rocket_baner](https://user-images.githubusercontent.com/93053350/155342564-66db52d1-bf4e-4f23-9c75-0364638f55b6.jpg)
 
+![GitHub Release Date](https://img.shields.io/badge/Release%20Date-February%202022-blue?style=plastic)
+![GitHub Release Date](https://img.shields.io/badge/Project%20Status-Finished-brightgreen?style=plastic)
+![GitHub Release Date](https://img.shields.io/badge/Programming%20Languages-1-blueviolet?style=plastic)
+
 # :house_with_garden: Análise Exploratória de Dados para criar recomendações de compra e revenda de imóveis afim de maximizar o lucro 
 
-[Questões de Negócio](Questões-de-Negócio)
-[Premissas do Negócio](Premissas-do-Negócio)
-[Planejamento da Solução](Planejamento-da-Solução)
-[Top 7 Insights de Negócio](Top-7-Insights-de-Negócio)
-[Resultados Financeiros para o negócio](Resultados-Financeiros-para-o-negócio)
-[Conclusão](Conclusão)
+<h1>índice</h1>
 
+<h3>
+  
+• [Questões de Negócio](Questões-de-Negócio)
+
+• [Premissas do Negócio](Premissas-do-Negócio)
+
+• [Planejamento da Solução](Planejamento-da-Solução)
+
+• [Top 7 Insights de Negócio](Top-7-Insights-de-Negócio)
+
+• [Resultados Financeiros para o negócio](Resultados-Financeiros-para-o-negócio)
+
+• [Conclusão](Conclusão)
+  
+</h3>
 <h1>:mag_right: Sobre o projeto</h1>
   <p>Esse é um projeto do tipo Insights que realizei para fazer parte do meu portfólio de projetos de Ciência de Dados. De forma resumida, é uma análise exploratória de dados
   com o intuito de resolver os problemas de negócio e tomada de decisão da empresa fictícia House Rocket.</p>
