@@ -10,17 +10,17 @@
 
 <h3>
   
-• [Questões de Negócio](Questões-de-Negócio)
+• [Questões de Negócio](https://github.com/JeffersonMedines/house_rocket_project#briefcase-quest%C3%B5es-de-neg%C3%B3cio)
 
-• [Premissas do Negócio](Premissas-do-Negócio)
+• [Premissas do Negócio](https://github.com/JeffersonMedines/house_rocket_project#gear-premissas-do-neg%C3%B3cio)
 
-• [Planejamento da Solução](Planejamento-da-Solução)
+• [Planejamento da Solução](https://github.com/JeffersonMedines/house_rocket_project#computer-planejamento-da-solu%C3%A7%C3%A3o)
 
-• [Top 7 Insights de Negócio](Top-7-Insights-de-Negócio)
+• [Top 7 Insights de Negócio](https://github.com/JeffersonMedines/house_rocket_project#bar_chart-top-7-insights-de-neg%C3%B3cio)
 
-• [Resultados Financeiros para o negócio](Resultados-Financeiros-para-o-negócio)
+• [Resultados Financeiros para o negócio](https://github.com/JeffersonMedines/house_rocket_project#chart_with_upwards_trend-resultados-financeiros-para-o-neg%C3%B3cio)
 
-• [Conclusão](Conclusão)
+• [Conclusão](https://github.com/JeffersonMedines/house_rocket_project#pushpin-conclus%C3%A3o)
   
 </h3>
 <h1>:mag_right: Sobre o projeto</h1>
