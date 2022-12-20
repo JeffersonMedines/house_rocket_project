@@ -151,7 +151,7 @@
   reformas a serem aplicadas em um imóvel para valoriza-lo afim de maximizar o lucro e utilizar o produto de dados para realizar análises que irão aulixar na tomada de
   decisão.</p>
   <p>Link para acessar os gráficos das hipóteses e as tabelas de recomendação de compra e venda:<br>
-  https://house-rocket-insights.herokuapp.com/</br></p>
+  https://house-rocket-hypoteses.onrender.com/</br></p>
   
    <p>Link para acessar o produto de dados:<br>
-   https://house-rocket-hypoteses.herokuapp.com/</br></p>
+   https://house-rocket-dashboard.onrender.com/</br></p>
