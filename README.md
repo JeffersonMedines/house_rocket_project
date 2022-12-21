@@ -150,8 +150,11 @@
   capaz de montar sua estratégia com base nos dados e identificar de maneira mais acertiva quais são os melhores negócios e bons preços para revendê-los, quais são as melhores
   reformas a serem aplicadas em um imóvel para valoriza-lo afim de maximizar o lucro e utilizar o produto de dados para realizar análises que irão aulixar na tomada de
   decisão.</p>
-  <p>Link para acessar os gráficos das hipóteses e as tabelas de recomendação de compra e venda:<br>
+  
+  <p> (Os links podem demorar um pouco para carregar por que foram hospedados em clouds gratuítas, e por isso a aplicação fica em modo "parado" até receber uma visita para reduzir custos de processamento.) </p>
+   
+  <p>Link para acessar os gráficos das hipóteses:<br>
   https://house-rocket-hypoteses.onrender.com/</br></p>
   
-   <p>Link para acessar o produto de dados:<br>
+   <p>Link para acessar o produto de dados e as tabelas de recomendação de compra e venda:<br>
    https://house-rocket-dashboard.onrender.com/</br></p>
